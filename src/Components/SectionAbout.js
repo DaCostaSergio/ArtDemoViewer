@@ -1,0 +1,63 @@
+import Plant from '../Assets/Plantfoto.png'
+export default function () {
+    return (
+        <div>
+            {/**Phone */}
+            <div className="">
+
+            </div>
+
+            {/**Tablette */}
+            <div className="">
+
+            </div>
+
+            {/**Laptop */}
+            <div className="  ">
+                <h1 className="font-semibold text-title text-center pt-28">
+                    What our customers say about us<span className="text-green">.</span>
+                </h1>
+                <h2 className="text-subTitle text-center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
+                </h2>
+                <div className="grid grid-cols-2 place-items-center mt-20 ">
+                    <div className="justify-self-end bg-white w-laptopAbout drop-shadow-2xl rounded-l-2xl">
+                        <h1 className="text-laptopCommentTitle font-medium mt-20 pt-20 pl-20">
+                            Promote my work online
+                        </h1>
+                        <p className="text-laptopCommentText font-regular mt-10 pl-20">
+                            Lorem ipsum dolor sit amet, <br />
+                            consectetuer adipiscing elit, <br />
+                            sed diam nonummy nibh <br />
+                            euismod tincidunt ut laoreet <br />
+                            dolore magna.
+                        </p>
+                        <div className="grid grid-cols-2 mt-10 ">
+                            <div className="bg-green w-10 h-10 rounded-full ml-20">
+
+                            </div>
+                            <div classsName="place-content-center">
+                                Sandra Smith, artist
+                            </div>
+                        </div>
+                        <div className="text-laptopCommentApostrophe text-green  text-right mr-10">
+                            “
+                        </div>
+
+                    </div>
+                    <div className="justify-self-start w-laptopAbout rounded-r-2xl py-2">
+                        <img className="w-full " src={Plant}></img>
+                    </div>
+                </div>
+            </div>
+
+
+            {/**Desktop */}
+            <div className="">
+
+            </div>
+
+
+        </div>
+    )
+}
