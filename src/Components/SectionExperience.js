@@ -7,8 +7,86 @@ export default function () {
     return (
         <div>
             {/**Phone */}
-            <div className="">
-
+            <div className="block laptop:hidden px-phonePadding laptop:hidden pb-20">
+                <div>
+                    <h1 className="font-semibold text-phoneTitle text-center pt-20">
+                        See for yourself how it 
+                        works and what it looks like<span className="text-green">.</span>
+                    </h1>
+                    <h2 className="text-subTitle text-center">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
+                    </h2>
+                </div>
+                <div className="grid grid-cols-1  pt-10 font-semibold">
+                    <div className=" text-grey hover:text-black">
+                        Furniture
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Plants
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Poster
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Rugs
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Statues
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Well Start
+                    </div>
+                </div>
+                <div className="laptop:grid grid-cols-1   content-center pt-10">
+                    <div className={"mt-2 grid place-content-center w-phoneCards h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
+                        <div className={"grid mx-auto place-content-center  w-24  h-24 bg-beige rounded-full"}>
+                            <img className="mt-16 w-20 " src={Image1} alt="" />
+                        </div>
+                        <div className={"pt-20 text-center"}>
+                            <h1 className={"font-semibold"}>
+                                View this artwork
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                            </p>
+                        </div>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center my-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                            View in AR
+                        </div>
+                    </div>
+                    <div className={"mt-2 grid place-content-center w-phoneCards h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
+                        <div className={"grid mx-auto place-content-center  w-24  h-24 bg-beige rounded-full"}>
+                            <img className="mt-16 w-20 " src={Image2} alt="" />
+                        </div>
+                        <div className={"pt-20 text-center"}>
+                            <h1 className={"font-semibold"}>
+                                View this artwork
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                            </p>
+                        </div>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center my-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                            View in AR
+                        </div>
+                    </div>
+                    <div className={"mt-2 grid place-content-center w-phoneCards h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
+                        <div className={"grid mx-auto place-content-center  w-24  h-24 bg-beige rounded-full"}>
+                            <img className="mt-16 w-20 " src={Image3} alt="" />
+                        </div>
+                        <div className={"pt-20 text-center"}>
+                            <h1 className={"font-semibold"}>
+                                View this artwork
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                            </p>
+                        </div>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center my-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                            View in AR
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {/**Tablette */}
@@ -17,7 +95,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="laptop:block">
+            <div className="hidden laptop:block">
                 <div>
                     <h1 className="font-semibold text-title text-center pt-28">
                         See for yourself how it <br/>

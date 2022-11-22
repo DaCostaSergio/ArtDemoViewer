@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f16b3e1.css",
+    "main.js": "/static/js/main.b1136161.js",
+    "static/js/787.8f3d2099.chunk.js": "/static/js/787.8f3d2099.chunk.js",
+    "static/media/2.png": "/static/media/2.d326a2853ad72cc68b55.png",
+    "static/media/HomeImage.png": "/static/media/HomeImage.2f141cbe2ad23364fd4c.png",
+    "static/media/1.png": "/static/media/1.77788a1eb5c12f48de46.png",
+    "static/media/3.png": "/static/media/3.a8de792bd55e016de4ed.png",
+    "static/media/Plantfoto.png": "/static/media/Plantfoto.850d978adb32232628e5.png",
+    "static/media/IphoneHome.png": "/static/media/IphoneHome.b8b091f9be7362a2ce11.png",
+    "static/media/sofa.png": "/static/media/sofa.cf0362a3a3d94c50cc50.png",
+    "static/media/iPhone.png": "/static/media/iPhone.4bc3af2ec4e8ba587aff.png",
+    "static/media/shopify.svg": "/static/media/shopify.5d958eacd0481c130ce9dcedcb28c218.svg",
+    "static/media/wordpress.svg": "/static/media/wordpress.65b0daa2f4b3b443cc11acccbf832ebd.svg",
+    "static/media/weebly.svg": "/static/media/weebly.504e51b3b8cf4469cb1c30a7fa2b04b2.svg",
+    "static/media/Combined Shape-1.svg": "/static/media/Combined Shape-1.f4504ce61804f6e7f3009128cf416f9f.svg",
+    "static/media/Combined Shape-2.svg": "/static/media/Combined Shape-2.e9e571aec0461115a0174e6f2b606466.svg",
+    "index.html": "/index.html",
+    "static/media/Combined Shape.svg": "/static/media/Combined Shape.8fa9f9e6df34f7d5e7ea7b78a8b4ed15.svg",
+    "static/media/html.svg": "/static/media/html.d2c608e5298237304e2a602322940c44.svg",
+    "main.0f16b3e1.css.map": "/static/css/main.0f16b3e1.css.map",
+    "main.b1136161.js.map": "/static/js/main.b1136161.js.map",
+    "787.8f3d2099.chunk.js.map": "/static/js/787.8f3d2099.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f16b3e1.css",
+    "static/js/main.b1136161.js"
+  ]
+}

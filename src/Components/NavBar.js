@@ -4,8 +4,19 @@ export default function () {
     return (
         <div>
             {/**Phone */}
-            <div className="">
-
+            <div className="phone:grid grid-cols-2 place-content-between content-center font-semibold laptop:hidden">
+                <div className="text-phoneLogo">
+                    <ul>
+                        <li>
+                            <Link to="home" spy={true} smooth={true} offset={-100}>
+                                <span className="text-green">AR</span> Viewer
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                <div className=" text-laptopMenu">
+                    
+                </div>
             </div>
 
             {/**Tablette */}
@@ -14,7 +25,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="laptop:grid grid-cols-2 place-content-between content-center font-semibold ">
+            <div className="hidden laptop:grid grid-cols-2 place-content-between content-center font-semibold ">
                 <div className="text-logoLaptop">
                     <ul>
                         <li>

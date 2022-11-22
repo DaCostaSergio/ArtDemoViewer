@@ -3,8 +3,42 @@ export default function () {
     return (
         <div>
             {/**Phone */}
-            <div className="">
+            <div className=" laptop:hidden px-phonePadding">
+                <h1 className="font-semibold text-phoneTitle text-center pt-28">
+                    What our customers say about us<span className="text-green">.</span>
+                </h1>
+                <h2 className="text-subTitle text-center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
+                </h2>
+                <div className="grid grid-cols-1 place-items-center mt-5 ">
+                    <div className=" bg-white  drop-shadow-2xl rounded-2xl">
+                        <h1 className="text-phoneCommentTitle font-medium  pt-10 px-5 ">
+                            Promote my work online
+                        </h1>
+                        <p className="text-phoneCommentText font-regular mt-10 px-5">
+                            Lorem ipsum dolor sit amet, 
+                            consectetuer adipiscing elit, 
+                            sed diam nonummy nibh 
+                            euismod tincidunt ut laoreet 
+                            dolore magna.
+                        </p>
+                        <div className="grid grid-cols-2 mt-10 ">
+                            <div className="bg-green w-10 h-10 rounded-full ml-5">
 
+                            </div>
+                            <div classsName="place-content-center">
+                                Sandra Smith, artist
+                            </div>
+                        </div>
+                        <div className="text-laptopCommentApostrophe text-green  text-center ">
+                            “
+                        </div>
+
+                    </div>
+                    <div className=" rounded-2xl py-2">
+                        <img className="" src={Plant}></img>
+                    </div>
+                </div>
             </div>
 
             {/**Tablette */}
@@ -13,7 +47,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="  ">
+            <div className="hidden laptop:block ">
                 <h1 className="font-semibold text-title text-center pt-28">
                     What our customers say about us<span className="text-green">.</span>
                 </h1>
