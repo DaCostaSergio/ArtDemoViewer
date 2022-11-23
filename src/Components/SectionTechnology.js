@@ -86,7 +86,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:grid grid-cols-2 place-content-between content-center ">
+            <div className="hidden laptop:flex justify-between ">
                 <div>
                     <h1 className="font-semibold text-title pt-28">
                         Art. is trusted<br />

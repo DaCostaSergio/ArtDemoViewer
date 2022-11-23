@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 
 export default function () {
     return (
-        <div>
+        <div className="z-40">
             {/**Phone */}
             <div className="phone:grid grid-cols-2 place-content-between content-center font-semibold laptop:hidden">
                 <div className="text-phoneLogo">

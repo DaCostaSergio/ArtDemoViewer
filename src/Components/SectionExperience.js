@@ -125,7 +125,7 @@ export default function () {
                         Well Start
                     </div>
                 </div>
-                <div className="laptop:grid grid-cols-3 place-content-between  content-center pt-10">
+                <div className="laptop:flex justify-between pt-10">
                     <div className={"mt-2 grid place-content-center w-laptopCards h-laptopCards  rounded-2xl hover:bg-indigo  bg-white text-black "}>
                         <div className={"grid place-items-center  w-64  h-64 bg-beige rounded-full "}>
                             <img className="mt-10 w-40 lg:mt-32" src={Image1} alt="" />

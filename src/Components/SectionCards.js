@@ -72,7 +72,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:grid grid-cols-3 justify-between ">
+            <div className="hidden laptop:flex justify-between">
                 <div>
                     <div className={"mt-2  w-laptopCards h-laptopCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
                         <div className={"absolute -z-10 drop-shadow-2xl w-laptopCards h-laptopCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
@@ -126,7 +126,7 @@ export default function () {
                                     sit amet, adipiscing <br />
                                     elit, sed diam des. <br />
                                 </div>
-                                <div className={"border-2 border-beige p-2 w-50  text-center mt-10 font-semibold hover:bg-beige hover:text-white"}>
+                                <div className={"border-2 border-beige p-2 w-50 text-2xl text-center mt-10 font-semibold hover:bg-beige hover:text-white"}>
                                     See how it works
                                 </div>
                             </div>
