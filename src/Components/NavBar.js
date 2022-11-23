@@ -26,7 +26,7 @@ export default function () {
 
             {/**Laptop */}
             <div className="hidden laptop:grid grid-cols-2 place-content-between content-center font-semibold ">
-                <div className="text-logoLaptop">
+                <div className="text-logoLaptop py-auto">
                     <ul>
                         <li>
                             <Link to="home" spy={true} smooth={true} offset={-100}>
