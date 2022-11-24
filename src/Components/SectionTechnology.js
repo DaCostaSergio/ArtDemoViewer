@@ -99,7 +99,7 @@ export default function () {
                     </h2>
                 </div>
                 <div className="flex justify-between w-1/2 pt-36 ">
-                    <div className=" ">
+                    <div className="pl-20 ">
                         <div className="grid grid-cols-2 mr-10">
                             <div className="place-self-end mr-10">
                                 <img src={wordpress}></img>
