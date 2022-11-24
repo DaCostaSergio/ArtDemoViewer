@@ -16,10 +16,10 @@ function App() {
   return (
     <div className="font-poppins">
       <div className="bg-fixed bg-[url('Assets/HomeImage.png')] bg-center bg-cover laptop:h-laptopHomeHeight">
-        <div className="fixed w-full laptop:px-20 pt-10 bg-white">
+        <div className="fixed w-full laptop:px-20 pt-10 bg-white z-50">
           <NavBar></NavBar>
         </div>
-        <div id="home" className=" phone:px-phonePadding laptop:px-laptopPadding">
+        <div id="home" className=" phone:px-phonePadding laptop:px-laptopPadding -40">
           <SectionHome></SectionHome>
         </div>
       </div>

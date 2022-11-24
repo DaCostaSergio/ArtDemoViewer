@@ -1,5 +1,5 @@
 import iphone from '../Assets/IphoneHome.png';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 export default function () {
 
@@ -36,35 +36,47 @@ export default function () {
 
             {/**Laptop */}
             <div className=" ">
-                <div className="z-20">
-
-                </div>
-                <div className="z-30">
-                    <div className="laptop:grid grid-cols-2 content-center pt-20 ">
-                        <div>
-                            <h1 className="font-semibold text-title pt-48">
-                                Take your webshop
-                                to the next level with
-                                Augmented Reality<br />
-                            </h1>
-                            <h2 className="text-subTitle pt-4">
-                                Elevate your customer experience with AR. Simple Plug and play 
-                                installation for popular ecommerce platforms.
-                            </h2>
-                            <div className="mt-5">
-                                <button className="bg-green px-10 py-2 rounded-xl font-semibold hover:text-white">
-                                    Try Now
-                                </button>
-                                <button className="bg-green mx-10 px-10 py-2 rounded-xl font-semibold hover:text-white">
-                                    Sign up
-                                </button>
+                <div className="z-30 ">
+                    <Parallax pages={2} style={{ top: '0', left: '0' }}>
+                        <ParallaxLayer
+                            sticky={{ start: 1, end: 2 }}
+                            offset={0}
+                            speed={2.5}
+                            style={{ display: 'flex', justifyContent: 'start', alignItems: 'start' }}>
+                            <div className="px-laptopPadding">
+                                <h1 className="font-semibold text-title pt-48 ">
+                                    Take your webshop <br></br>
+                                    to the next level with<br></br>
+                                    Augmented Reality<br />
+                                </h1>
+                                <h2 className="text-subTitle pt-4">
+                                    Elevate your customer experience with AR. Simple Plug and play <br></br>
+                                    installation for popular ecommerce platforms.
+                                </h2>
+                                <div className="mt-5">
+                                    <button className="bg-green px-10 py-2 rounded-xl font-semibold hover:text-white">
+                                        Try Now
+                                    </button>
+                                    <button className="bg-green mx-10 px-10 py-2 rounded-xl font-semibold hover:text-white">
+                                        Sign up
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-1/2">
-                            
+                        </ParallaxLayer>
+                        <ParallaxLayer
+                            sticky={{ start: 2, end: 1}}
+                            offset={1}
+                            speed={1}
+                            style={{ display: 'flex', justifyContent: 'end', alignItems: 'end' }}>
+                            <div className=" px-laptopPadding">
+                                <img src={iphone}></img>
+                            </div>
+                        </ParallaxLayer>
 
-                        </div>
-                    </div>
+
+
+
+                    </Parallax>
                 </div>
 
             </div>

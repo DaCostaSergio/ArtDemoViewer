@@ -31,7 +31,7 @@ export default function () {
 
             {/**Laptop */}
             <div className="hidden laptop:flex justify-between ">
-                <div className="pt-40 w-1/2">
+                <div className="pt-20 w-1/2">
                     <h1 className="font-semibold text-title pt-28">
                         Everything you <br></br>
                         need to stay ahead  of
@@ -46,7 +46,7 @@ export default function () {
                         Install now
                     </button>
                 </div>
-                <div className="-px-10">
+                <div className="">
                     <img src={iphone}></img>
                 </div>
             </div>
