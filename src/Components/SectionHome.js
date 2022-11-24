@@ -35,11 +35,21 @@ export default function () {
 
 
             {/**Laptop */}
-            <div className=" ">
+            <div className="hidden laptop:block ">
                 <div className="z-30 ">
                     <Parallax pages={2} style={{ top: '0', left: '0' }}>
+                        
                         <ParallaxLayer
-                            sticky={{ start: 1, end: 2 }}
+                            sticky={{ start: 2, end: 1}}
+                            offset={1}
+                            speed={1}
+                            style={{ display: 'flex', justifyContent: 'end', alignItems: 'end' }}>
+                            <div className=" px-laptopPadding">
+                                <img src={iphone}></img>
+                            </div>
+                        </ParallaxLayer>
+                        <ParallaxLayer
+                            sticky={{ start: 0, end: 2 }}
                             offset={0}
                             speed={2.5}
                             style={{ display: 'flex', justifyContent: 'start', alignItems: 'start' }}>
@@ -61,15 +71,6 @@ export default function () {
                                         Sign up
                                     </button>
                                 </div>
-                            </div>
-                        </ParallaxLayer>
-                        <ParallaxLayer
-                            sticky={{ start: 2, end: 1}}
-                            offset={1}
-                            speed={1}
-                            style={{ display: 'flex', justifyContent: 'end', alignItems: 'end' }}>
-                            <div className=" px-laptopPadding">
-                                <img src={iphone}></img>
                             </div>
                         </ParallaxLayer>
 

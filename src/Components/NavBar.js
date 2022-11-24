@@ -25,8 +25,8 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:flex justify-between content-center font-semibold ">
-                <div className="text-logoLaptop py-auto">
+            <div className="hidden laptop:flex justify-between items-center font-semibold ">
+                <div className="text-logoLaptop s">
                     <ul>
                         <li>
                             <Link to="home" spy={true} smooth={true} offset={-100}>
@@ -36,23 +36,23 @@ export default function () {
                     </ul>
                 </div>
                 <div className=" text-laptopMenu">
-                    <ul className="grid grid-cols-5 gap-4 place-content-between place-items-center  ">
+                    <ul className="flex justify-between space-x-12 ">
                         <li className="hover:text-green">
                             <Link to="home" spy={true} smooth={true} offset={-100}>
                                 Home
                             </Link>
                         </li>
-                        <li className="hover:text-green">
+                        <li className="hover:text-green pt-1">
                             <Link to="why" spy={true} smooth={true} offset={-100}>
                                 Why ART
                             </Link>
                         </li>
-                        <li className="hover:text-green">
+                        <li className="hover:text-green pt-1">
                             <Link to="howItWorks" spy={true} smooth={true} offset={-100}>
                                 How it Works
                             </Link>
                         </li>
-                        <li className="hover:text-green">
+                        <li className="hover:text-green pt-1">
                             <Link to="pricing" spy={true} smooth={true} offset={-100}>
                                 Pricing
                             </Link>

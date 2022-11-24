@@ -107,22 +107,32 @@ export default function () {
                 </div>
                 <div className="grid grid-cols-6 pt-20 place-content-start w-1/2 font-semibold">
                     <div className=" text-grey hover:text-black">
+                        <div>
                         Furniture
+                        </div>
+                     
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Plants
+                       
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Poster
+                        <div className=" hover:block bg-black rounded-full w-2 h-2 mt-2 ml-5">
+                            
+                        </div>
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Rugs
+                     
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Statues
+                      
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Well Start
+                    
                     </div>
                 </div>
                 <div className="laptop:flex justify-between pt-10">
@@ -131,7 +141,7 @@ export default function () {
                             <img className="mt-10 w-40 lg:mt-32" src={Image1} alt="" />
                         </div>
                         <div className={"pt-10"}>
-                            <h1>
+                            <h1 className="font-semibold">
                                 View this artwork
                             </h1>
                             <p>
@@ -147,7 +157,7 @@ export default function () {
                             <img className="mt-10 w-40 lg:mt-32" src={Image2} alt="" />
                         </div>
                         <div className={"pt-10"}>
-                            <h1>
+                            <h1 className="font-semibold">
                                 View this artwork
                             </h1>
                             <p>
@@ -163,7 +173,7 @@ export default function () {
                             <img className="mt-10 w-40 lg:mt-32" src={Image3} alt="" />
                         </div>
                         <div className={"pt-10"}>
-                            <h1>
+                            <h1 className="font-semibold">
                                 View this artwork
                             </h1>
                             <p>
