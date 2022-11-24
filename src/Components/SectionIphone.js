@@ -31,13 +31,13 @@ export default function () {
 
             {/**Laptop */}
             <div className="hidden laptop:flex justify-between ">
-                <div className="pt-40">
+                <div className="pt-40 w-1/2">
                     <h1 className="font-semibold text-title pt-28">
-                        Everything you <br />
-                        need to stay ahead <br />
-                        of the competition<span className="text-green">.</span>
+                        Everything you <br></br>
+                        need to stay ahead  of
+                        the competition<span className="text-green">.</span>
                     </h1>
-                    <h2 className="text-subTitle">
+                    <h2 className="text-subTitle pt-4">
                         Lorem ipsum dolor sit amet, consectetuer <br />
                         adipiscing elit, sed diam nonummy nibh <br />
                         euismod tincidunt ut laoreet dolore magna.<br />

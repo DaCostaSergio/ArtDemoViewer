@@ -1,5 +1,4 @@
 
-import './App.css';
 
 
 import NavBar from './Components/NavBar';
@@ -16,11 +15,11 @@ import SectionTrial from './Components/SectionTrial';
 function App() {
   return (
     <div className="font-poppins">
-      <div className="bg-fixed bg-[url('Assets/HomeImage.png')] bg-center bg-cover laptop:h-screen ">
-        <div className="z-50 fixed w-full laptop:px-20 pt-10 bg-white">
+      <div className="bg-fixed bg-[url('Assets/HomeImage.png')] bg-center bg-cover laptop:h-laptopHomeHeight">
+        <div className="fixed w-full laptop:px-20 pt-10 bg-white">
           <NavBar></NavBar>
         </div>
-        <div id="home" className="z-40 phone:px-phonePadding laptop:px-laptopPadding laptop:pb-laptopSectionPadding">
+        <div id="home" className=" phone:px-phonePadding laptop:px-laptopPadding">
           <SectionHome></SectionHome>
         </div>
       </div>

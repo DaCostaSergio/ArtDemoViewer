@@ -13,7 +13,7 @@ export default function () {
                         See for yourself how it 
                         works and what it looks like<span className="text-green">.</span>
                     </h1>
-                    <h2 className="text-subTitle text-center">
+                    <h2 className="text-subTitle text-center ">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
                     </h2>
                 </div>
@@ -101,7 +101,7 @@ export default function () {
                         See for yourself how it <br/>
                         works and what it looks like<span className="text-green">.</span>
                     </h1>
-                    <h2 className="text-subTitle text-center">
+                    <h2 className="text-subTitle text-center pt-4">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
                     </h2>
                 </div>

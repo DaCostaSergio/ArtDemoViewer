@@ -51,7 +51,7 @@ export default function () {
                 <h1 className="font-semibold text-title text-center pt-28">
                     What our customers say about us<span className="text-green">.</span>
                 </h1>
-                <h2 className="text-subTitle text-center">
+                <h2 className="text-subTitle text-center pt-4">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
                 </h2>
                 <div className="grid grid-cols-2 place-items-center mt-20 ">

@@ -1,6 +1,5 @@
-import iphone from '../Assets/IphoneHome.png'
-import homePicture from '../Assets/HomeImage.png'
-import { IParallax, Parallax, ParallaxLayer } from "@react-spring/parallax";
+import iphone from '../Assets/IphoneHome.png';
+import { Parallax, Background } from 'react-parallax';
 
 export default function () {
 
@@ -38,34 +37,18 @@ export default function () {
             {/**Laptop */}
             <div className=" ">
                 <div className="z-20">
-                    <Parallax pages={2}>
-                        <ParallaxLayer
-                            offset={0.9999}
-                            speed={3}
-                            factor={1}
-                            sticky={{ start: 1, end: 2 }}
-                            style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                            }}
-                        >
-                            <div className="w-96 ml-40">
-                                <img src={iphone}></img>
-                            </div>
-                        </ParallaxLayer>
-                    </Parallax>
+
                 </div>
                 <div className="z-30">
-                    <div className="laptop:grid grid-cols-2 content-center pt-48 ">
+                    <div className="laptop:grid grid-cols-2 content-center pt-20 ">
                         <div>
-                            <h1 className="font-semibold text-title pt-28">
-                                Take your webshop 
-                                to the next level with 
-                                Augmented Reality
+                            <h1 className="font-semibold text-title pt-48">
+                                Take your webshop
+                                to the next level with
+                                Augmented Reality<br />
                             </h1>
-                            <h2 className="text-subTitle">
-                                Elevate your customer experience with AR. Simple Plug and play <br />
+                            <h2 className="text-subTitle pt-4">
+                                Elevate your customer experience with AR. Simple Plug and play 
                                 installation for popular ecommerce platforms.
                             </h2>
                             <div className="mt-5">
@@ -76,6 +59,10 @@ export default function () {
                                     Sign up
                                 </button>
                             </div>
+                        </div>
+                        <div className="w-1/2">
+                            
+
                         </div>
                     </div>
                 </div>

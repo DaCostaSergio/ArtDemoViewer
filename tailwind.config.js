@@ -8,11 +8,13 @@ module.exports = {
       'logoLaptop': '38px',
       'phoneLogo': '36.7px',
 
-      'title': '73.4px',
+      'title': '55px',
       'phoneTitle': '25.4px',
 
-      'subTitle': '15px',
+      'subTitle': '20px',
       'phoneSubTitle': '10px',
+
+    
 
 
       'laptopNumberCards': '71.4px',
@@ -66,7 +68,7 @@ module.exports = {
         'poppins': ["Poppins", "sans-serif"]
       },
       width: {
-        'laptopCards': '432px',
+        'laptopCards': '400px',
         'phoneCards': '216px',
 
 
@@ -81,6 +83,7 @@ module.exports = {
         'laptopCards': '550.7px',
         'phoneCards': '350.4px',
 
+        'laptopHomeHeight' : '1080px',
 
         'laptopSection': '888px',
 

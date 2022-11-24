@@ -25,7 +25,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:grid grid-cols-2 place-content-between content-center font-semibold ">
+            <div className="hidden laptop:flex justify-between content-center font-semibold ">
                 <div className="text-logoLaptop py-auto">
                     <ul>
                         <li>

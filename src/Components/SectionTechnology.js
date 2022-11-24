@@ -9,7 +9,7 @@ export default function () {
         <div>
             {/**Phone */}
             <div className="grid grid-cols-1 place-content-between content-center px-phonePadding laptop:hidden pt-10">
-                <div>
+                <div className="">
                     <h1 className="font-semibold text-phoneTitle ">
                         Art. is trusted
                         by the website
@@ -87,18 +87,18 @@ export default function () {
 
             {/**Laptop */}
             <div className="hidden laptop:flex justify-between ">
-                <div>
+                <div className=" w-1/2">
                     <h1 className="font-semibold text-title pt-28">
                         Art. is trusted<br />
                         by the website <br />
                         platforms you use <span className="text-green">.</span>
                     </h1>
-                    <h2 className="text-subTitle">
-                        Elevate your customer experience with AR. Simple Plug and play <br />
+                    <h2 className="text-subTitle pt-4">
+                        Elevate your customer experience with AR. Simple Plug and play
                         installation for popular ecommerce platforms.
                     </h2>
                 </div>
-                <div className="grid grid-cols-2 pt-48 ">
+                <div className="flex justify-between w-1/2 pt-36 ">
                     <div className=" ">
                         <div className="grid grid-cols-2 mr-10">
                             <div className="place-self-end mr-10">
@@ -109,7 +109,7 @@ export default function () {
                                     Wordpress
                                 </h1>
                                 <p>
-                                    Lorem ipsum dolor
+                                    Lorem ipsum 
                                 </p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ export default function () {
                                     Shopify
                                 </h1>
                                 <p>
-                                    Lorem ipsum dolor
+                                    Lorem ipsum 
                                 </p>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ export default function () {
                                     Weebly
                                 </h1>
                                 <p>
-                                    Lorem ipsum dolor
+                                    Lorem ipsum 
                                 </p>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ export default function () {
                                     Html
                                 </h1>
                                 <p>
-                                    Lorem ipsum dolor
+                                    Lorem ipsum 
                                 </p>
                             </div>
                         </div>

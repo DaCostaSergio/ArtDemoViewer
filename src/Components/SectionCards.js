@@ -72,7 +72,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:flex justify-between">
+            <div className="hidden laptop:flex justify-between space-x-10">
                 <div>
                     <div className={"mt-2  w-laptopCards h-laptopCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
                         <div className={"absolute -z-10 drop-shadow-2xl w-laptopCards h-laptopCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
@@ -119,15 +119,17 @@ export default function () {
                             3.
                         </div>
                         <div className={" px-10"}>
-                            <div className={"text-laptopTitleCards outline-2 font-semibold pt-10 "}>
-                                This is the titel for <br /> stap 3
+                            <div className={" outline-2 font-semibold pt-10 "}>
+                                <div className="text-laptopTitleCards">
+                                    This is the titel for <br /> stap 3
+                                </div>
                                 <div className={"text-laptopTextCards font-normal pt-5"}>
                                     Lorem ipsum dolor <br />
                                     sit amet, adipiscing <br />
                                     elit, sed diam des. <br />
                                 </div>
-                                <div className={"border-2 border-beige p-2 w-50 text-2xl text-center mt-10 font-semibold hover:bg-beige hover:text-white"}>
-                                    See how it works
+                                <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-10 font-semibold hover:bg-beige hover:text-white "}>
+                                    View in AR
                                 </div>
                             </div>
                         </div>

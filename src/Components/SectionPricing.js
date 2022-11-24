@@ -42,7 +42,7 @@ export default function () {
                         for your business,<br />
                         starts with Art <span className="text-green">.</span>
                     </h1>
-                    <h2 className="text-subTitle text-white">
+                    <h2 className="text-subTitle text-white pt-4">
                         Lorem ipsum dolor sit amet, consectetuer <br />
                         adipiscing elit, sed diam nonummy nibh <br />
                         euismod tincidunt ut laoreet dolore magna.<br />
