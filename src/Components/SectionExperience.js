@@ -7,7 +7,7 @@ export default function () {
     return (
         <div>
             {/**Phone */}
-            <div className="block laptop:hidden px-phonePadding laptop:hidden pb-20">
+            <div className="block pb-20  px-phonePadding laptop:hidden ">
                 <div>
                     <h1 className="font-semibold text-phoneTitle text-center pt-20">
                         See for yourself how it 
@@ -38,7 +38,7 @@ export default function () {
                     </div>
                 </div>
                 <div className="laptop:grid grid-cols-1   content-center pt-10">
-                    <div className={"mt-2 grid place-content-center w-phoneCards h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
+                    <div className={"mt-2 grid place-content-center w-full h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
                         <div className={"grid mx-auto place-content-center  w-24  h-24 bg-beige rounded-full"}>
                             <img className="mt-16 w-20 " src={Image1} alt="" />
                         </div>
@@ -54,7 +54,7 @@ export default function () {
                             View in AR
                         </div>
                     </div>
-                    <div className={"mt-2 grid place-content-center w-phoneCards h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
+                    <div className={"mt-2 grid place-content-center w-full h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
                         <div className={"grid mx-auto place-content-center  w-24  h-24 bg-beige rounded-full"}>
                             <img className="mt-16 w-20 " src={Image2} alt="" />
                         </div>
@@ -70,7 +70,7 @@ export default function () {
                             View in AR
                         </div>
                     </div>
-                    <div className={"mt-2 grid place-content-center w-phoneCards h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
+                    <div className={"mt-2 grid place-content-center w-full h-phoneCards  rounded-2xl hover:bg-indigo  bg-white text-black pt-5 "}>
                         <div className={"grid mx-auto place-content-center  w-24  h-24 bg-beige rounded-full"}>
                             <img className="mt-16 w-20 " src={Image3} alt="" />
                         </div>

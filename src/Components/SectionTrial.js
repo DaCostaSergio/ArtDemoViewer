@@ -3,8 +3,8 @@ export default function () {
     return (
         <div>
             {/**Phone */}
-            <div className=" grid place-content-center mx-phonePadding laptop:hidden ">
-                <div className=" w-phoneTrial bg-transparent rounded-3xl shadow-2xl">
+            <div className=" grid place-content-center px-phonePadding mt-10 laptop:hidden ">
+                <div className=" w-full bg-transparent rounded-3xl shadow-2xl">
                     <div className="text-phoneTitle p-10 font-semibold ">
                         Start your business 
                         journey with Art<span className="text-green">.</span>

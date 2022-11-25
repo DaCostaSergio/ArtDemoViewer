@@ -3,11 +3,11 @@ export default function () {
     return (
         <div>
             {/**Phone */}
-            <div className="grid grid-cols-1 justify-between laptop:hidden px-phonePadding">
+            <div className=" flex flex-col justify-center  px-phonePadding laptop:hidden">
                 <div>
-                    <div className={"mt-2  w-phoneCards h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
-                        <div className={"absolute -z-10 drop-shadow-2xl w-phoneCards h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
-                        </div>
+                    <div className={"mt-2  w-full h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                        <div className={"absolute -z-10 drop-shadow-2xl w-full h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
+                        </div> 
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             1.
                         </div>
@@ -24,8 +24,8 @@ export default function () {
                     </div>
                 </div>
                 <div>
-                    <div className={"mt-2  w-phoneCards h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
-                        <div className={"absolute -z-10 drop-shadow-2xl w-phoneCards h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
+                    <div className={"mt-2  w-ful h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                        <div className={"absolute -z-10 drop-shadow-2xl w-full h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
                         </div>
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             2.
@@ -43,8 +43,8 @@ export default function () {
                     </div>
                 </div>
                 <div>
-                    <div className={"mt-2  w-phoneCards h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
-                        <div className={"absolute -z-10 drop-shadow-2xl w-phoneCards h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
+                    <div className={"mt-2  w-full h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                        <div className={"absolute -z-10 drop-shadow-2xl w-full h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
                         </div>
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             3.

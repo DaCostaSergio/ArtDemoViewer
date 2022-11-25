@@ -22,11 +22,11 @@ export default function () {
                             euismod tincidunt ut laoreet 
                             dolore magna.
                         </p>
-                        <div className="grid grid-cols-2 mt-10 ">
+                        <div className="flex space-x-10 mt-10 ">
                             <div className="bg-green w-10 h-10 rounded-full ml-5">
 
                             </div>
-                            <div classsName="place-content-center">
+                            <div classsName="place-content-center mr-10">
                                 Sandra Smith, artist
                             </div>
                         </div>

@@ -7,7 +7,7 @@ export default function () {
         <div>
             {/**Phone */}
             <div className="grid grid-cols-1 content-center laptop:hidden ">
-                <div className="pt-40 px-phonePadding">
+                <div className="pt-40 ">
                     <h1 className="font-semibold text-phoneTitle ">
                         Take your webshop
                         to the next level with
@@ -26,7 +26,7 @@ export default function () {
                         </button>
                     </div>
                 </div>
-                <div className="place-self-end ">
+                <div className="place-self-end py-20 ">
                     <img src={iphone}></img>
                 </div>
             </div>
