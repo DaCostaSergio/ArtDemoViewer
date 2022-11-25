@@ -86,7 +86,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:flex justify-between ">
+            <div className="hidden laptop:flex justify-between desktop:hidden">
                 <div className=" w-1/2">
                     <h1 className="font-semibold text-title pt-28">
                         Art. is trusted<br />
@@ -160,8 +160,76 @@ export default function () {
 
 
             {/**Desktop */}
-            <div className="">
-
+            <div className="hidden desktop:flex justify-between ">
+                <div className=" w-1/2">
+                    <h1 className="font-semibold text-desktopTitle pt-28">
+                        Art. is trusted
+                        by the website 
+                        platforms you use <span className="text-green">.</span>
+                    </h1>
+                    <h2 className="text-desktopSubTitle pt-4">
+                        Elevate your customer experience with AR. Simple Plug and play
+                        installation for popular ecommerce platforms.
+                    </h2>
+                </div>
+                <div className="flex justify-between w-1/2 pt-36 ">
+                    <div className="pl-20 ">
+                        <div className="grid grid-cols-2 mr-10">
+                            <div className="place-self-end mr-10 ">
+                                <img src={wordpress}></img>
+                            </div>
+                            <div>
+                                <h1 className="font-semibold">
+                                    Wordpress
+                                </h1>
+                                <p>
+                                    Lorem ipsum 
+                                </p>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-2 pt-10 mr-10">
+                            <div className="place-self-end mr-10">
+                                <img src={shopify}></img>
+                            </div>
+                            <div>
+                                <h1 className="font-semibold">
+                                    Shopify
+                                </h1>
+                                <p>
+                                    Lorem ipsum 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=" ">
+                        <div className="grid grid-cols-2 ">
+                            <div className="place-self-end mr-10">
+                                <img src={weebly}></img>
+                            </div>
+                            <div className="place-self-end mr-10">
+                                <h1 className="font-semibold">
+                                    Weebly
+                                </h1>
+                                <p>
+                                    Lorem ipsum 
+                                </p>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-2 pt-10">
+                            <div className="place-self-end mr-10">
+                                <img src={html}></img>
+                            </div>
+                            <div>
+                                <h1 className="font-semibold">
+                                    Html
+                                </h1>
+                                <p>
+                                    Lorem ipsum 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

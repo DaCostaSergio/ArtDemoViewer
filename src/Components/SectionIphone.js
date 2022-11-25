@@ -30,7 +30,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:flex justify-between ">
+            <div className="hidden laptop:flex justify-between desktop:hidden">
                 <div className="pt-20 w-1/2">
                     <h1 className="font-semibold text-title pt-28">
                         Everything you <br></br>
@@ -53,10 +53,26 @@ export default function () {
 
 
             {/**Desktop */}
-            <div className="">
-
+            <div className="hidden desktop:flex justify-between ">
+                <div className="pt-20 w-1/2">
+                    <h1 className="font-semibold text-desktopTitle pt-28">
+                        Everything you <br></br>
+                        need to stay ahead  of
+                        the competition<span className="text-green">.</span>
+                    </h1>
+                    <h2 className="text-desktopSubTitle pt-4">
+                        Lorem ipsum dolor sit amet, consectetuer <br />
+                        adipiscing elit, sed diam nonummy nibh <br />
+                        euismod tincidunt ut laoreet dolore magna.<br />
+                    </h2>
+                    <button className="bg-green mt-5 px-10 py-2 rounded-xl font-semibold hover:text-white">
+                        Install now
+                    </button>
+                </div>
+                <div className="">
+                    <img src={iphone}></img>
+                </div>
             </div>
-
 
         </div>
     )

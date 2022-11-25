@@ -66,15 +66,15 @@ export default function () {
                             euismod tincidunt ut laoreet <br />
                             dolore magna.
                         </p>
-                        <div className="grid grid-cols-2 mt-10 ">
+                        <div className="flex space-x-10  mt-10">
                             <div className="bg-green w-10 h-10 rounded-full ml-20">
 
                             </div>
-                            <div classsName="place-content-center">
+                            <div classsName="place-self-center font-semibold ">
                                 Sandra Smith, artist
                             </div>
                         </div>
-                        <div className="text-laptopCommentApostrophe text-green  text-right mr-10">
+                        <div className="text-laptopCommentApostrophe text-green  text-right mr-10 ">
                             “
                         </div>
 
