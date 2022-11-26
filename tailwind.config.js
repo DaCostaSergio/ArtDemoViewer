@@ -95,6 +95,8 @@ module.exports = {
         'laptopHomeHeight' : '1200px',
         'desktopHomeHeight' : '2000px',
 
+        'laptopComment' : '766px',
+
         'laptopSection': '888px',
         'desktopSection': '1600px',
 

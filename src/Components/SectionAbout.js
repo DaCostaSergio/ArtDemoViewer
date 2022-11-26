@@ -55,7 +55,7 @@ export default function () {
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
                 </h2>
                 <div className="grid grid-cols-2 place-items-center mt-20 ">
-                    <div className="justify-self-end bg-white w-laptopAbout drop-shadow-2xl rounded-l-2xl">
+                    <div className="justify-self-end bg-white w-laptopAbout h-laptopComment drop-shadow-2xl rounded-l-2xl">
                         <h1 className="text-laptopCommentTitle font-medium mt-20 pt-20 pl-20">
                             Promote my work online
                         </h1>
@@ -79,8 +79,8 @@ export default function () {
                         </div>
 
                     </div>
-                    <div className="justify-self-start w-laptopAbout rounded-r-2xl py-2">
-                        <img className="w-full " src={Plant}></img>
+                    <div className="justify-self-start ">
+                        <img className="w-full w-laptopAbout h-laptopComment rounded-r-2xl  drop-shadow-2xl " src={Plant}></img>
                     </div>
                 </div>
             </div>

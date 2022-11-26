@@ -82,7 +82,7 @@ export default function () {
                                 Lorem ipsum dolor sit amet
                             </p>
                         </div>
-                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center my-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center my-3 rounded-xl font-semibold hover:bg-beige hover:text-white mt-12"}>
                             View in AR
                         </div>
                     </div>
@@ -148,7 +148,7 @@ export default function () {
                                 Lorem ipsum dolor sit amet
                             </p>
                         </div>
-                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm rounded-xl text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
                             View in AR
                         </div>
                     </div>
@@ -164,7 +164,7 @@ export default function () {
                                 Lorem ipsum dolor sit amet
                             </p>
                         </div>
-                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center rounded-xl mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
                             View in AR
                         </div>
                     </div>
@@ -180,7 +180,7 @@ export default function () {
                                 Lorem ipsum dolor sit amet
                             </p>
                         </div>
-                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center rounded-xl mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
                             View in AR
                         </div>
                     </div>
@@ -240,7 +240,7 @@ export default function () {
                                 Lorem ipsum dolor sit amet
                             </p>
                         </div>
-                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center rounded-xl mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
                             View in AR
                         </div>
                     </div>
@@ -256,7 +256,7 @@ export default function () {
                                 Lorem ipsum dolor sit amet
                             </p>
                         </div>
-                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center rounded-xl mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
                             View in AR
                         </div>
                     </div>
@@ -272,7 +272,7 @@ export default function () {
                                 Lorem ipsum dolor sit amet
                             </p>
                         </div>
-                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-3 rounded-xl font-semibold hover:bg-beige hover:text-white mt-12"}>
                             View in AR
                         </div>
                     </div>

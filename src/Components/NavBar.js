@@ -1,23 +1,12 @@
 import { Link } from 'react-scroll';
+import React, { useState } from "react";
 
 export default function () {
+    const [isNavOpen, setIsNavOpen] = useState(false);
     return (
         <div className="z-40">
             {/**Phone */}
-            <div className="phone:grid grid-cols-2 place-content-between content-center font-semibold laptop:hidden">
-                <div className="text-phoneLogo">
-                    <ul>
-                        <li>
-                            <Link to="home" spy={true} smooth={true} offset={-100}>
-                                <span className="text-green">AR</span> Viewer
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-                <div className=" text-laptopMenu">
-                    
-                </div>
-            </div>
+           
 
             {/**Tablette */}
             <div className="">
@@ -36,8 +25,8 @@ export default function () {
                     </ul>
                 </div>
                 <div className=" text-laptopMenu">
-                    <ul className="flex justify-between space-x-12 ">
-                        <li className="hover:text-green">
+                    <ul className="flex justify-between space-x-12  ">
+                        <li className="hover:text-green pt-1">
                             <Link to="home" spy={true} smooth={true} offset={-100}>
                                 Home
                             </Link>
@@ -57,7 +46,7 @@ export default function () {
                                 Pricing
                             </Link>
                         </li>
-                        <button className="bg-green px-4 h-10 rounded-full hover:text-white ">
+                        <button className="bg-green px-4 h-10 rounded-xl hover:text-white ">
                             <li>
                                 <Link to="contact" spy={true} smooth={true} offset={-100}>
                                     Contact us
@@ -112,6 +101,6 @@ export default function () {
                     </ul>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

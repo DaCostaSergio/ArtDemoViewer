@@ -128,7 +128,7 @@ export default function () {
                                     sit amet, adipiscing <br />
                                     elit, sed diam des. <br />
                                 </div>
-                                <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-10 font-semibold hover:bg-beige hover:text-white "}>
+                                <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-10 font-semibold hover:bg-beige rounded-xl hover:text-white "}>
                                     View in AR
                                 </div>
                             </div>
@@ -195,7 +195,7 @@ export default function () {
                                     sit amet, adipiscing <br />
                                     elit, sed diam des. <br />
                                 </div>
-                                <div className={"border-2 border-beige p-2 w-50 text-dektopTextCards text-center mt-20 font-semibold hover:bg-beige hover:text-white "}>
+                                <div className={"border-2 border-beige p-2 w-50 text-dektopTextCards text-center mt-20 font-semibold hover:bg-beige rounded-xl hover:text-white "}>
                                     View in AR
                                 </div>
                             </div>
