@@ -5,7 +5,7 @@ export default function () {
             {/**Phone */}
             <div className=" flex flex-col justify-center  px-phonePadding laptop:hidden">
                 <div>
-                    <div className={"mt-2  w-full h-phoneCards rounded-2xl mr-phonePadding  bg-white text-black hover:bg-purple hover:text-white "}>
+                    <div className={"mt-2  w-full h-phoneCards rounded-2xl mr-phonePadding bg-purple text-white "}>
                       
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             1.
@@ -23,7 +23,7 @@ export default function () {
                     </div>
                 </div>
                 <div>
-                    <div className={"mt-2  w-ful h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                    <div className={"mt-2  w-ful h-phoneCards rounded-2xl   bg-purple text-white "}>
                       
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             2.
@@ -41,7 +41,7 @@ export default function () {
                     </div>
                 </div>
                 <div>
-                    <div className={"mt-2  w-full h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                    <div className={"mt-2  w-full h-phoneCards rounded-2xl  bg-purple text-white "}>
                      
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             3.
