@@ -87,7 +87,7 @@ export default function () {
 
 
             {/**Desktop */}
-            <div className="">
+            <div className=" desktop:pb-48">
 
             </div>
 

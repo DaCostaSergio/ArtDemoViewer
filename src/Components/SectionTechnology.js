@@ -4,6 +4,8 @@ import shopify from '../Assets/shopify.svg';
 import weebly from '../Assets/weebly.svg';
 import wordpress from '../Assets/wordpress.svg';
 
+import { Icon } from '@iconify/react';
+
 export default function () {
     return (
         <div>
@@ -16,7 +18,7 @@ export default function () {
                         platforms you use <span className="text-green">.</span>
                     </h1>
                     <h2 className="text-subTitle">
-                        Elevate your customer experience with AR. Simple Plug and play 
+                        Elevate your customer experience with AR. Simple Plug and play
                         installation for popular ecommerce platforms.
                     </h2>
                 </div>
@@ -109,7 +111,7 @@ export default function () {
                                     Wordpress
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>
@@ -122,7 +124,7 @@ export default function () {
                                     Shopify
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>
@@ -137,7 +139,7 @@ export default function () {
                                     Weebly
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>
@@ -150,7 +152,7 @@ export default function () {
                                     Html
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>
@@ -164,7 +166,7 @@ export default function () {
                 <div className=" w-1/2">
                     <h1 className="font-semibold text-desktopTitle pt-28">
                         Art. is trusted
-                        by the website 
+                        by the website
                         platforms you use <span className="text-green">.</span>
                     </h1>
                     <h2 className="text-desktopSubTitle pt-4">
@@ -172,59 +174,59 @@ export default function () {
                         installation for popular ecommerce platforms.
                     </h2>
                 </div>
-                <div className="flex justify-between w-1/2 pt-36 ">
-                    <div className="pl-20 ">
-                        <div className="grid grid-cols-2 mr-10">
+                <div className="flex place-items-end space-x-20 pt-36 ">
+                    <div className="pl-44 ">
+                        <div className="flex mr-10">
                             <div className="place-self-end mr-10 ">
-                                <img src={wordpress}></img>
+                                <Icon icon="fa:wordpress" color="#3f3d56" width="140" />
                             </div>
-                            <div>
-                                <h1 className="font-semibold">
-                                    Wordpress
+                            <div className="mt-10">
+                                <h1 className="text-desktopSubTitle font-semibold">
+                                    Wordpress loloo
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>
-                        <div className="grid grid-cols-2 pt-10 mr-10">
-                            <div className="place-self-end mr-10">
-                                <img src={shopify}></img>
+                        <div className="flex pt-10 mr-10">
+                            <div className="place-self-center ">
+                                <Icon icon="ic:sharp-shopify" color="#3f3d56" width="160" />
                             </div>
-                            <div>
-                                <h1 className="font-semibold">
+                            <div className="mt-10">
+                                <h1 className="text-desktopSubTitle font-semibold">
                                     Shopify
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className=" ">
-                        <div className="grid grid-cols-2 ">
+                        <div className="flex ">
                             <div className="place-self-end mr-10">
-                                <img src={weebly}></img>
+                                <Icon icon="fa6-brands:weebly" color="#3f3d56" width="150" />
                             </div>
-                            <div className="place-self-end mr-10">
-                                <h1 className="font-semibold">
+                            <div className=" mr-10 mt-10">
+                                <h1 className=" text-desktopSubTitle font-semibold">
                                     Weebly
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>
-                        <div className="grid grid-cols-2 pt-10">
+                        <div className="flex pt-10">
                             <div className="place-self-end mr-10">
-                                <img src={html}></img>
+                                <Icon icon="ant-design:html5-filled" color="#3f3d56" width="150" />
                             </div>
-                            <div>
-                                <h1 className="font-semibold">
+                            <div className=" mr-10 mt-10">
+                                <h1 className="text-desktopSubTitle font-semibold">
                                     Html
                                 </h1>
                                 <p>
-                                    Lorem ipsum 
+                                    Lorem ipsum
                                 </p>
                             </div>
                         </div>

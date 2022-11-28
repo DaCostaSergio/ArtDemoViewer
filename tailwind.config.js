@@ -93,7 +93,7 @@ module.exports = {
         'phoneCards': '350.4px',
 
         'laptopHomeHeight' : '1200px',
-        'desktopHomeHeight' : '2000px',
+        'desktopHomeHeight' : '2400px',
 
         'laptopComment' : '766px',
 

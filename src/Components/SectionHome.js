@@ -83,11 +83,11 @@ export default function () {
                     <Parallax pages={3} style={{ top: '0', left: '0' }}>
                         <ParallaxLayer
                             sticky={{ start: 1, end: 3}}
-                            offset={1}
+                            offset={3}
                             speed={1}
-                            style={{ display: 'flex', justifyContent: 'end', alignItems: 'end' }}>
-                            <div className=" px-desktopPadding">
-                                <img className="w-96"src={iphone}></img>
+                            style={{ display: 'flex', justifyContent: 'end'}}>
+                            <div className=" px-desktopPadding mt-48">
+                                <img className="h-laptopHomeHeight mr-48 "src={iphone}></img>
                             </div>
                         </ParallaxLayer>
                         <ParallaxLayer
