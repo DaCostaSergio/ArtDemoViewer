@@ -15,11 +15,11 @@ import SectionTrial from './Components/SectionTrial';
 function App() {
   return (
     <div className="font-poppins">
-      <div className="bg-fixed bg-[url('Assets/HomeImage.png')] bg-center bg-cover laptop:h-laptopHomeHeight desktop:h-desktopHomeHeight">
+      <div className="bg-fixed bg-[url('Assets/HomeImage.png')] bg-center bg-cover bg-no-repeat laptop:bg-cover laptop:h-laptopHomeHeight desktop:h-desktopHomeHeight">
         <div className="fixed  w-full laptop:px-20 pt-6 pb-4 bg-white z-50 ">
           <NavBar></NavBar>
         </div>
-        <div id="home" className=" phone:px-phonePadding laptop:px-laptopPadding desktop:px-desktopPadding ">
+        <div id="home" className="px-phonePadding laptop:px-laptopPadding desktop:px-desktopPadding ">
           <SectionHome></SectionHome>
         </div>
       </div>

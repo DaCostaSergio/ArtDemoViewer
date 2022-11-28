@@ -1,12 +1,25 @@
 import { Link } from 'react-scroll';
 import React, { useState } from "react";
 
+import SideBar from './SideBar.js';
+
 export default function () {
     const [isNavOpen, setIsNavOpen] = useState(false);
     return (
         <div className="z-40">
             {/**Phone */}
-           
+            <div className=" flex laptop:hidden">
+                <ul>
+                    <li className="pl-5 font-semibold">
+                        <Link to="home" spy={true} smooth={true} offset={-100}>
+                        <span className="text-green"> AR </span>Viewer
+                        </Link>
+                    </li>
+                </ul>
+                <div>
+                    <SideBar></SideBar>
+                </div>
+            </div>
 
             {/**Tablette */}
             <div className="">

@@ -5,7 +5,7 @@ export default function () {
     return (
         <div>
             {/**Phone */}
-            <div className="px-phonePadding  laptop:hidden pt-20">
+            <div className="px-phonePadding  laptop:hidden pt-20 pb-20">
                 <div>
                     <h1 className="text-phoneCommentTitle font-semilbold">
                         Art<span className="text-green">. demo</span>

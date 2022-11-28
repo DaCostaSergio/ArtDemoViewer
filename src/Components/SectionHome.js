@@ -7,7 +7,7 @@ export default function () {
         <div>
             {/**Phone */}
             <div className="grid grid-cols-1 content-center laptop:hidden ">
-                <div className="pt-40 ">
+                <div className="pt-32 ">
                     <h1 className="font-semibold text-phoneTitle ">
                         Take your webshop
                         to the next level with

@@ -5,9 +5,8 @@ export default function () {
             {/**Phone */}
             <div className=" flex flex-col justify-center  px-phonePadding laptop:hidden">
                 <div>
-                    <div className={"mt-2  w-full h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
-                        <div className={"absolute -z-10 drop-shadow-2xl w-full h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
-                        </div> 
+                    <div className={"mt-2  w-full h-phoneCards rounded-2xl mr-phonePadding  bg-white text-black hover:bg-purple hover:text-white "}>
+                      
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             1.
                         </div>
@@ -25,8 +24,7 @@ export default function () {
                 </div>
                 <div>
                     <div className={"mt-2  w-ful h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
-                        <div className={"absolute -z-10 drop-shadow-2xl w-full h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
-                        </div>
+                      
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             2.
                         </div>
@@ -44,8 +42,7 @@ export default function () {
                 </div>
                 <div>
                     <div className={"mt-2  w-full h-phoneCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
-                        <div className={"absolute -z-10 drop-shadow-2xl w-full h-phoneCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
-                        </div>
+                     
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             3.
                         </div>
@@ -57,7 +54,7 @@ export default function () {
                                     sit amet, adipiscing <br />
                                     elit, sed diam des. <br />
                                 </div>
-                                <div className={"border-2 border-beige p-2 w-50  text-phoneTextCards text-center mt-5 font-semibold hover:bg-beige hover:text-white"}>
+                                <div className={"border-2 border-beige p-2 w-50  text-phoneTextCards text-center mt-5 font-semibold hover:bg-beige hover:text-white rounded-2xl"}>
                                     See how it works
                                 </div>
                             </div>

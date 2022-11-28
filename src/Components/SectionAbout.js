@@ -35,8 +35,8 @@ export default function () {
                         </div>
 
                     </div>
-                    <div className=" rounded-2xl py-2">
-                        <img className="" src={Plant}></img>
+                    <div className="  py-2">
+                        <img className=" rounded-2xl" src={Plant}></img>
                     </div>
                 </div>
             </div>
