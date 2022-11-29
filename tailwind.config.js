@@ -79,6 +79,7 @@ module.exports = {
         'desktopCards': '650px',
         'phoneCards': '216px',
 
+        'laptopIphone': '560px',
 
         'laptopCircle': '278px',
         'laptopAbout': '645.4px',
