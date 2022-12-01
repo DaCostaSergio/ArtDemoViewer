@@ -2,10 +2,12 @@ import iphone from '../Assets/IphoneHome.png';
 import iphonePNG from '../Assets/IphonePNG.png';
 import tableau from '../Assets/Tableau.png'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import {useState, useEffect} from 'react'
 
 
 export default function () {
 
+  
     return (
         <div>
             {/**Phone */}
@@ -40,18 +42,17 @@ export default function () {
             {/**Laptop */}
             <div className="hidden laptop:block desktop:hidden ">
                 <div className="z-30 ">
-                    <Parallax pages={2} style={{ top: '0', right: '0' }}>
+                    <Parallax pages={1} style={{ top: '0', right: '0' }}>
                         <ParallaxLayer
                             sticky={{ start: 2, end: 1 }}
                             offset={0}
                             speed={1}
-                            from ={{opacity:0}}
-                            to ={{opacity:1}}
-                            style={{ display: 'flex', justifyContent: 'end', alignItems: 'start' }}
+
+                            style={{ display: 'flex', justifyContent: 'end', alignItems: 'start',}}
                             >
-                            <div className=" px-laptopPadding mr-52">
-                                <div className="pt-60">
-                                    <img className="w-44" src={tableau}></img>
+                            <div className=" px-laptopPadding mr-72">
+                                <div className="pt-72 transition-opacity duration-200 ">
+                                    <img className="w-60" src={tableau}></img>
                                 </div>
                             </div>
                         </ParallaxLayer>
