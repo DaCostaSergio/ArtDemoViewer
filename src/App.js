@@ -23,41 +23,41 @@ function App() {
         <div className="fixed  w-full laptop:px-20 pt-6 pb-4 bg-white z-50 ">
           <NavBar></NavBar>
         </div>
-        <div id="home" className="px-phonePadding laptop:px-laptopPadding desktop:px-desktopPadding ">
+        <div id="home" className="px-phonePadding laptop:px-laptopPadding screen15:px-screen15Padding desktop:px-desktopPadding ">
           <SectionHome></SectionHome>
         </div>
       </div>
       <div className="bg-taupe snap-center ">
         <div className=" bg-[url('Assets/Path.png')] laptop:bg-cover bg-no-repeat">
-          <div className=" laptop:px-laptopPadding laptop:pb-laptopSectionPadding desktop:px-desktopPadding">
+          <div className=" laptop:px-laptopPadding laptop:pb-laptopSectionPadding screen15:px-screen15Padding  desktop:px-desktopPadding">
             <SectionIphone></SectionIphone>
           </div>
         </div>
       </div>
-      <div id="howItWorks" className="snap-center laptop:px-laptopPadding laptop:pb-laptopSectionPadding desktop:px-desktopPadding">
+      <div id="howItWorks" className="snap-center laptop:px-laptopPadding laptop:pb-laptopSectionPadding screen15:px-screen15Padding desktop:px-desktopPadding">
         <SectionCards></SectionCards>
       </div>
-      <div className="snap-start laptop:px-laptopPadding laptop:pb-laptopSectionPadding desktop:px-desktopPadding">
+      <div className="snap-start laptop:px-laptopPadding laptop:pb-laptopSectionPadding screen15:px-screen15Padding desktop:px-desktopPadding">
         <SectionTechnology></SectionTechnology>
       </div>
-      <div className="snap-center laptop:px-laptopPadding bg-purple laptop:h-laptopSection desktop:px-desktopPadding desktop:h-desktopSection">
+      <div className="snap-center laptop:px-laptopPadding bg-purple laptop:h-laptopSection screen15:px-screen15Padding screen15:h-screen15Section desktop:px-desktopPadding desktop:h-desktopSection">
         <div id="pricing" className="py-20">
           <SectionPricing></SectionPricing>
         </div>
       </div>
       <div className="bg-taupe snap-center ">
-        <div id="why" className="laptop:px-laptopPadding  laptop:pb-laptopSectionPadding desktop:px-desktopPadding" >
+        <div id="why" className="laptop:px-laptopPadding  laptop:pb-laptopSectionPadding screen15:px-screen15Padding desktop:px-desktopPadding" >
           <SectionExperience></SectionExperience>
         </div>
       </div>
-      <div className="laptop:px-laptopPadding snap-center ">
+      <div className="laptop:px-laptopPadding screen15:px-screen15Padding snap-center ">
         <SectionAbout></SectionAbout>
       </div>
       <div className="snap-center  bg-[url('Assets/PathFooter.png')] bg-bottom bg-contain bg-no-repeat desktop:bg-cover">
-        <div className=" laptop:px-laptopPadding  laptop:py-laptopSectionPadding desktop:px-desktopPadding" >
+        <div className=" laptop:px-laptopPadding   laptop:py-laptopSectionPadding screen15:px-screen15Padding desktop:px-desktopPadding" >
           <SectionTrial></SectionTrial>
         </div>
-        <div id="contact" className=" laptop:px-laptopPadding">
+        <div id="contact" className=" laptop:px-laptopPadding screen15:px-screen15Padding">
           <Footer></Footer>
         </div>
       </div>

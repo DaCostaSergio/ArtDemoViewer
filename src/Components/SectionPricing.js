@@ -34,7 +34,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:grid grid-cols-2 content-center desktop:hidden">
+            <div className="hidden laptop:grid grid-cols-2 content-center screen15:hidden">
                 <div className=" pt-40">
                     <h1 className="font-semibold text-title text-white ">
                         The best experiences <br />
@@ -55,6 +55,31 @@ export default function () {
                 </div>
                 <div className="place-self-end ">
                     <img src={sofa} className="h-laptopPictureSofa"></img>
+                </div>
+            </div>
+
+             {/**screen15 */}
+             <div className="hidden screen15:grid grid-cols-2 content-center desktop:hidden">
+                <div className=" pt-48">
+                    <h1 className="font-semibold text-screen15Title text-white ">
+                        The best experiences <br />
+                        for your business,<br />
+                        starts with Art <span className="text-green">.</span>
+                    </h1>
+                    <h2 className="text-desktopSubTitle text-white pt-4">
+                        Lorem ipsum dolor sit amet, consectetuer <br />
+                        adipiscing elit, sed diam nonummy nibh <br />
+                        euismod tincidunt ut laoreet dolore magna.<br />
+                    </h2>
+                    <button className="hover:bg-green text-green border-2 mt-5 px-10 py-2 rounded-xl font-semibold hover:text-purple mr-5">
+                        Start Using
+                    </button>
+                    <button className="hover:bg-green text-green border-2 mt-5 px-10 py-2 rounded-xl font-semibold hover:text-purple">
+                        Prices
+                    </button>
+                </div>
+                <div className="place-self-end pt-20 ">
+                    <img src={sofa} className="h-screen15PictureSofa"></img>
                 </div>
             </div>
 

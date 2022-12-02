@@ -187,15 +187,15 @@ export default function () {
             {/**screen15 */}
             <div className="hidden screen15:block desktop:hidden">
                 <div>
-                    <h1 className="font-semibold text-title text-center pt-28">
+                    <h1 className="font-semibold text-screen15Title text-center pt-28">
                         See for yourself how it <br />
                         works and what it looks like<span className="text-green">.</span>
                     </h1>
-                    <h2 className="text-subTitle text-center pt-4">
+                    <h2 className="text-desktopSubTitle text-center pt-4">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
                     </h2>
                 </div>
-                <div className="grid grid-cols-6 pt-20 place-content-start w-1/2 font-semibold">
+                <div className="grid grid-cols-6 pt-20 place-content-start w-1/2 text-desktopSubTitle font-semibold">
                     <div className=" text-grey hover:text-black">
                         <div>
                             Furniture
@@ -229,7 +229,7 @@ export default function () {
                             <img className="mt-10 w-40 lg:mt-32" src={Image1} alt="" />
                         </div>
                         <div className={"pt-10"}>
-                            <h1 className="font-semibold">
+                            <h1 className="text-desktopSubTitle font-semibold">
                                 View this artwork
                             </h1>
                             <p>
@@ -245,7 +245,7 @@ export default function () {
                             <img className="mt-10 w-40 lg:mt-32" src={Image2} alt="" />
                         </div>
                         <div className={"pt-10"}>
-                            <h1 className="font-semibold">
+                            <h1 className="text-desktopSubTitle font-semibold">
                                 View this artwork
                             </h1>
                             <p>
@@ -261,7 +261,7 @@ export default function () {
                             <img className="mt-10 w-40 lg:mt-32" src={Image3} alt="" />
                         </div>
                         <div className={"pt-10"}>
-                            <h1 className="font-semibold">
+                            <h1 className="text-desktopSubTitle font-semibold">
                                 View this artwork
                             </h1>
                             <p>

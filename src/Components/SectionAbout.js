@@ -16,10 +16,10 @@ export default function () {
                             Promote my work online
                         </h1>
                         <p className="text-phoneCommentText font-regular mt-10 px-5">
-                            Lorem ipsum dolor sit amet, 
-                            consectetuer adipiscing elit, 
-                            sed diam nonummy nibh 
-                            euismod tincidunt ut laoreet 
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit,
+                            sed diam nonummy nibh
+                            euismod tincidunt ut laoreet
                             dolore magna.
                         </p>
                         <div className="flex space-x-10 mt-10 ">
@@ -47,7 +47,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:block ">
+            <div className="hidden laptop:block screen15:hidden">
                 <h1 className="font-semibold text-title text-center pt-28">
                     What our customers say about us<span className="text-green">.</span>
                 </h1>
@@ -85,6 +85,44 @@ export default function () {
                 </div>
             </div>
 
+            {/**screen15 */}
+            <div className="hidden screen15:block ">
+                <h1 className="font-semibold text-screen15Title text-center pt-28">
+                    What our customers say about us<span className="text-green">.</span>
+                </h1>
+                <h2 className="text-screen15SubTitle text-center pt-4">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
+                </h2>
+                <div className="grid grid-cols-2 place-items-center mt-20 ">
+                    <div className="justify-self-end bg-white w-laptopAbout h-laptopComment drop-shadow-2xl rounded-l-2xl">
+                        <h1 className="text-laptopCommentTitle font-medium mt-20 pt-20 pl-20">
+                            Promote my work online
+                        </h1>
+                        <p className="text-laptopCommentText font-regular mt-10 pl-20">
+                            Lorem ipsum dolor sit amet, <br />
+                            consectetuer adipiscing elit, <br />
+                            sed diam nonummy nibh <br />
+                            euismod tincidunt ut laoreet <br />
+                            dolore magna.
+                        </p>
+                        <div className="flex space-x-10  mt-10">
+                            <div className="bg-green w-10 h-10 rounded-full ml-20">
+
+                            </div>
+                            <div classsName="place-self-center font-semibold ">
+                                Sandra Smith, artist
+                            </div>
+                        </div>
+                        <div className="text-laptopCommentApostrophe text-green  text-right mr-10 ">
+                            “
+                        </div>
+
+                    </div>
+                    <div className="justify-self-start ">
+                        <img className="w-full w-laptopAbout h-laptopComment rounded-r-2xl  drop-shadow-2xl " src={Plant}></img>
+                    </div>
+                </div>
+            </div>
 
             {/**Desktop */}
             <div className=" desktop:pb-48">

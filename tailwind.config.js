@@ -11,9 +11,11 @@ module.exports = {
 
       'title': '55px',
       'desktopTitle': '100px',
+      'screen15Title': '73.15px',
       'phoneTitle': '25.4px',
 
       'subTitle': '20px',
+      'screen15SubTitle': '26.6px',
       'desktopSubTitle': '30px',
       'phoneSubTitle': '10px',
 
@@ -84,6 +86,7 @@ module.exports = {
         'phoneCards': '216px',
 
         'laptopIphone': '800px',
+        'screen15Iphone': '1040px',
 
         'laptopCircle': '278px',
         'laptopAbout': '645.4px',
@@ -105,9 +108,11 @@ module.exports = {
         'laptopComment' : '766px',
 
         'laptopSection': '888px',
+        'screen15Section': '1181px',
         'desktopSection': '1600px',
 
         'laptopPictureSofa': '690.7px',
+        'screen15PictureSofa': '917.7px',
         'desktopPictureSofa': '1200.7px',
         'phonePictureSofa': '345.4px',
 
@@ -115,11 +120,14 @@ module.exports = {
       },
       margin: {
         'laptopMargin': '241.4px',
+        'screen15IphoneMargin': '370.4px',
+        'screen15IMargin': '313.4px',
       },
       padding: {
         'phonePadding': '47.3px',
 
         'laptopPadding': '241.4px',
+        'screen15Padding': '321.4px',
         'desktopPadding': '400.4px',
         'laptopSectionPadding': '177.4px',
       }

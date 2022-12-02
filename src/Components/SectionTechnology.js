@@ -88,7 +88,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:flex justify-between desktop:hidden">
+            <div className="hidden laptop:flex justify-between screen15:hidden">
                 <div className=" w-1/2">
                     <h1 className="font-semibold text-title pt-28">
                         Art. is trusted<br />
@@ -160,9 +160,8 @@ export default function () {
                 </div>
             </div>
 
-
             {/**Desktop */}
-            <div className="hidden desktop:flex justify-between ">
+            <div className="hidden desktop:flex justify-between  ">
                 <div className=" w-1/2">
                     <h1 className="font-semibold text-desktopTitle pt-28">
                         Art. is trusted
@@ -220,6 +219,79 @@ export default function () {
                         <div className="flex pt-10">
                             <div className="place-self-end mr-10">
                                 <Icon icon="ant-design:html5-filled" color="#3f3d56" width="150" />
+                            </div>
+                            <div className=" mr-10 mt-10">
+                                <h1 className="text-desktopSubTitle font-semibold">
+                                    Html
+                                </h1>
+                                <p>
+                                    Lorem ipsum
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/**screen15 */}
+            <div className="hidden screen15:flex justify-between desktop:hidden ">
+            <div className=" w-1/2">
+                    <h1 className="font-semibold text-screen15Title pt-28">
+                        Art. is trusted
+                        by the website
+                        platforms you use <span className="text-green">.</span>
+                    </h1>
+                    <h2 className="text-desktopSubTitle pt-4">
+                        Elevate your customer experience with AR. Simple Plug and play
+                        installation for popular ecommerce platforms.
+                    </h2>
+                </div>
+                <div className="flex place-items-center space-x-20 pt-20  ">
+                    <div className="pl-44 ">
+                        <div className="flex mr-10">
+                            <div className="place-self-end mr-10 ">
+                                <Icon icon="fa:wordpress" color="#3f3d56" width="100" />
+                            </div>
+                            <div className="mt-10">
+                                <h1 className="text-desktopSubTitle font-semibold">
+                                    Wordpress 
+                                </h1>
+                                <p>
+                                    Lorem ipsum
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex pt-10 mr-10">
+                            <div className="place-self-center mr-10">
+                                <Icon icon="ic:sharp-shopify" color="#3f3d56" width="100" />
+                            </div>
+                            <div className="mt-10">
+                                <h1 className="text-desktopSubTitle font-semibold">
+                                    Shopify
+                                </h1>
+                                <p>
+                                    Lorem ipsum
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=" ">
+                        <div className="flex ">
+                            <div className="place-self-end mr-10">
+                                <Icon icon="fa6-brands:weebly" color="#3f3d56" width="100" />
+                            </div>
+                            <div className=" mr-10 mt-10">
+                                <h1 className=" text-desktopSubTitle font-semibold">
+                                    Weebly
+                                </h1>
+                                <p>
+                                    Lorem ipsum
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex pt-10">
+                            <div className="place-self-end mr-10">
+                                <Icon icon="ant-design:html5-filled" color="#3f3d56" width="100" />
                             </div>
                             <div className=" mr-10 mt-10">
                                 <h1 className="text-desktopSubTitle font-semibold">
