@@ -31,7 +31,6 @@ export default function () {
 
             {/**Tablette */}
             <div className="">
-
             </div>
 
             {/**Laptop */}
@@ -58,7 +57,6 @@ export default function () {
                     <img src={sofa} className="h-laptopPictureSofa"></img>
                 </div>
             </div>
-
 
             {/**Desktop */}
             <div className="hidden desktop:grid grid-cols-2 content-center">

@@ -6,7 +6,7 @@ export default function () {
             <div className=" flex flex-col justify-center  px-phonePadding laptop:hidden">
                 <div>
                     <div className={"mt-2  w-full h-phoneCards rounded-2xl mr-phonePadding bg-purple text-white "}>
-                      
+
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             1.
                         </div>
@@ -24,7 +24,7 @@ export default function () {
                 </div>
                 <div>
                     <div className={"mt-2  w-ful h-phoneCards rounded-2xl   bg-purple text-white "}>
-                      
+
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             2.
                         </div>
@@ -42,7 +42,7 @@ export default function () {
                 </div>
                 <div>
                     <div className={"mt-2  w-full h-phoneCards rounded-2xl  bg-purple text-white "}>
-                     
+
                         <div className={" text-phoneNumberCards  px-10 pt-10 "}>
                             3.
                         </div>
@@ -69,7 +69,7 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:flex justify-between space-x-10 desktop:hidden">
+            <div className="hidden laptop:flex justify-between space-x-10 screen15:hidden">
                 <div>
                     <div className={"mt-2  w-laptopCards h-laptopCards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
                         <div className={"absolute -z-10 drop-shadow-2xl w-laptopCards h-laptopCards  ml-1 -mt-1 rounded-2xl bg-beige "}>
@@ -134,6 +134,71 @@ export default function () {
                 </div>
             </div>
 
+            {/**Desktop 15 pouces*/}
+            <div className="hidden screen15:flex justify-between space-x-10 desktop:hidden">
+                <div>
+                    <div className={"mt-2  w-screen15Cards h-screen15Cards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                        <div className={"absolute -z-10 drop-shadow-2xl w-screen15Cards h-screen15Cards  ml-1 -mt-1 rounded-2xl bg-beige "}>
+                        </div>
+                        <div className={"text-5xl text-laptopNumberCards  px-20 pt-20 "}>
+                            1.
+                        </div>
+                        <div className={" px-20"}>
+                            <div className={"text-laptopTitleCards outline-2 font-semibold pt-20 "}>
+                                This is the titel for <br />stap 1
+                                <div className={"text-laptopTextCards font-normal pt-5"}>
+                                    Lorem ipsum dolor 
+                                    sit amet, adipiscing <br />
+                                    elit, sed diam des. <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <div className={"mt-2  w-screen15Cards h-screen15Cards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                        <div className={"absolute -z-10 drop-shadow-2xl w-screen15Cards h-screen15Cards  ml-1 -mt-1 rounded-2xl bg-beige "}>
+                        </div>
+                        <div className={"text-5xl text-laptopNumberCards  px-20 pt-20 "}>
+                            2.
+                        </div>
+                        <div className={" px-20"}>
+                            <div className={"text-laptopTitleCards outline-2 font-semibold pt-20 "}>
+                                This is the titel for <br />stap 2
+                                <div className={"text-laptopTextCards font-normal pt-5"}>
+                                    Lorem ipsum dolor 
+                                    sit amet, adipiscing <br />
+                                    elit, sed diam des. <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <div className={"mt-2  w-screen15Cards h-screen15Cards rounded-2xl   bg-white text-black hover:bg-purple hover:text-white "}>
+                        <div className={"absolute -z-10 drop-shadow-2xl w-screen15Cards h-screen15Cards  ml-1 -mt-1 rounded-2xl bg-beige "}>
+                        </div>
+                        <div className={"text-5xl text-laptopNumberCards  px-20 pt-20 "}>
+                            3.
+                        </div>
+                        <div className={" px-20"}>
+                            <div className={" outline-2 font-semibold pt-20 "}>
+                                <div className="text-laptopTitleCards">
+                                    This is the titel for <br /> stap 3
+                                </div>
+                                <div className={"text-laptopTextCards font-normal pt-5"}>
+                                    Lorem ipsum dolor 
+                                    sit amet, adipiscing <br />
+                                    elit, sed diam des. <br />
+                                </div>
+                                <div className={"border-2 border-beige p-2 w-50 text-sm text-center mt-20 font-semibold hover:bg-beige rounded-xl hover:text-white "}>
+                                    View in AR
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/**Desktop */}
             <div className="hidden desktop:flex justify-between space-x-10 ">

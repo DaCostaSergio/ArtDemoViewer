@@ -10,7 +10,7 @@ export default function () {
             <div className="block pb-20  px-phonePadding laptop:hidden ">
                 <div>
                     <h1 className="font-semibold text-phoneTitle text-center pt-20">
-                        See for yourself how it 
+                        See for yourself how it
                         works and what it looks like<span className="text-green">.</span>
                     </h1>
                     <h2 className="text-subTitle text-center ">
@@ -95,10 +95,10 @@ export default function () {
             </div>
 
             {/**Laptop */}
-            <div className="hidden laptop:block desktop:hidden">
+            <div className="hidden laptop:block screen15:hidden">
                 <div>
                     <h1 className="font-semibold text-title text-center pt-28">
-                        See for yourself how it <br/>
+                        See for yourself how it <br />
                         works and what it looks like<span className="text-green">.</span>
                     </h1>
                     <h2 className="text-subTitle text-center pt-4">
@@ -108,31 +108,28 @@ export default function () {
                 <div className="grid grid-cols-6 pt-20 place-content-start w-1/2 font-semibold">
                     <div className=" text-grey hover:text-black">
                         <div>
-                        Furniture
+                            Furniture
                         </div>
-                     
+
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Plants
-                       
+
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Poster
-                        <div className=" hover:block bg-black rounded-full w-2 h-2 mt-2 ml-5">
-                            
-                        </div>
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Rugs
-                     
+
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Statues
-                      
+
                     </div>
                     <div div className=" text-grey hover:text-black">
                         Well Start
-                    
+
                     </div>
                 </div>
                 <div className="laptop:flex justify-between pt-10">
@@ -187,12 +184,102 @@ export default function () {
                 </div>
             </div>
 
+            {/**screen15 */}
+            <div className="hidden screen15:block desktop:hidden">
+                <div>
+                    <h1 className="font-semibold text-title text-center pt-28">
+                        See for yourself how it <br />
+                        works and what it looks like<span className="text-green">.</span>
+                    </h1>
+                    <h2 className="text-subTitle text-center pt-4">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.<br />
+                    </h2>
+                </div>
+                <div className="grid grid-cols-6 pt-20 place-content-start w-1/2 font-semibold">
+                    <div className=" text-grey hover:text-black">
+                        <div>
+                            Furniture
+                        </div>
+
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Plants
+
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Poster
+                  
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Rugs
+
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Statues
+
+                    </div>
+                    <div div className=" text-grey hover:text-black">
+                        Well Start
+
+                    </div>
+                </div>
+                <div className="laptop:flex justify-between pt-10">
+                    <div className={"mt-2 grid place-content-center w-screen15Cards h-screen15Cards  rounded-2xl hover:bg-indigo  bg-white text-black "}>
+                        <div className={"grid place-items-center  w-64  h-64 bg-beige rounded-full "}>
+                            <img className="mt-10 w-40 lg:mt-32" src={Image1} alt="" />
+                        </div>
+                        <div className={"pt-10"}>
+                            <h1 className="font-semibold">
+                                View this artwork
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                            </p>
+                        </div>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm rounded-xl text-center mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                            View in AR
+                        </div>
+                    </div>
+                    <div className={"mt-2 grid place-content-center w-screen15Cards h-screen15Cards   rounded-2xl hover:bg-indigo  bg-white text-black "}>
+                        <div className={"grid place-items-center  w-64  h-64 bg-beige rounded-full "}>
+                            <img className="mt-10 w-40 lg:mt-32" src={Image2} alt="" />
+                        </div>
+                        <div className={"pt-10"}>
+                            <h1 className="font-semibold">
+                                View this artwork
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                            </p>
+                        </div>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center rounded-xl mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                            View in AR
+                        </div>
+                    </div>
+                    <div className={"mt-2 grid place-content-center w-screen15Cards h-screen15Cards  rounded-2xl hover:bg-indigo  bg-white text-black "}>
+                        <div className={"grid place-items-center  w-64  h-64 bg-beige rounded-full "}>
+                            <img className="mt-10 w-40 lg:mt-32" src={Image3} alt="" />
+                        </div>
+                        <div className={"pt-10"}>
+                            <h1 className="font-semibold">
+                                View this artwork
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                            </p>
+                        </div>
+                        <div className={"border-2 border-beige p-2 w-50 text-sm text-center rounded-xl mt-3 font-semibold hover:bg-beige hover:text-white mt-12"}>
+                            View in AR
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/**Desktop */}
             <div className="hidden desktop:block ">
                 <div>
                     <h1 className="font-semibold text-desktopTitle text-center pt-28">
-                        See for yourself how it <br/>
+                        See for yourself how it <br />
                         works and what it looks like<span className="text-green">.</span>
                     </h1>
                     <h2 className="text-desktopSubTitle text-center pt-4">
@@ -202,29 +289,29 @@ export default function () {
                 <div className="flex justify-between space-x-10 pt-20 place-content-start w-1/2 font-semibold">
                     <div className=" text-grey hover:text-black text-dektopTextCards">
                         <div>
-                        Furniture
+                            Furniture
                         </div>
-                     
+
                     </div>
                     <div div className=" text-grey hover:text-black text-dektopTextCards">
                         Plants
-                       
+
                     </div>
                     <div div className=" text-grey hover:text-black text-dektopTextCards">
                         Poster
-                   
+
                     </div>
                     <div div className=" text-grey hover:text-black text-dektopTextCards">
                         Rugs
-                     
+
                     </div>
                     <div div className=" text-grey hover:text-black text-dektopTextCards">
                         Statues
-                      
+
                     </div>
                     <div div className=" text-grey hover:text-black text-dektopTextCards">
                         Well Start
-                    
+
                     </div>
                 </div>
                 <div className="laptop:flex justify-between pt-10">

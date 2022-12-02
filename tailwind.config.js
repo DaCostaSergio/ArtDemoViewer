@@ -58,6 +58,9 @@ module.exports = {
       'laptop': '1024px',
       // => @media (min-width: 1024px) { ... }
 
+      'screen15': '2560px',
+      // => @media (min-width: 2560px) { ... }
+
       'desktop': '2800px',
       // => @media (min-width: 1280px) { ... }
     },
@@ -76,6 +79,7 @@ module.exports = {
       },
       width: {
         'laptopCards': '400px',
+        'screen15Cards': '530px',
         'desktopCards': '650px',
         'phoneCards': '216px',
 
@@ -90,10 +94,12 @@ module.exports = {
       },
       height: {
         'laptopCards': '550.7px',
+        'screen15Cards': '733.7px',
         'desktopCards': '950.7px',
         'phoneCards': '350.4px',
 
         'laptopHomeHeight' : '1200px',
+        'screen15HomeHeight' : '1600px',
         'desktopHomeHeight' : '2400px',
 
         'laptopComment' : '766px',
