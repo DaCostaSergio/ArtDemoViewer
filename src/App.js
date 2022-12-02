@@ -1,7 +1,7 @@
 
 
 
-import navBar from './Components/NavBar';
+import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import SectionAbout from './Components/SectionAbout';
 import SectionCards from './Components/SectionCards';
@@ -21,7 +21,7 @@ function App() {
     <div className="font-poppins">
       <div className="bg-fixed bg-[url('Assets/HomeImage.png')] bg-center bg-cover bg-no-repeat laptop:bg-cover laptop:h-laptopHomeHeight desktop:h-desktopHomeHeight screen15:h-screen15HomeHeight">
         <div className="fixed  w-full laptop:px-20 pt-6 pb-4 bg-white z-50 ">
-          <navBar></navBar>
+          <NavBar></NavBar>
         </div>
         <div id="home" className="px-phonePadding laptop:px-laptopPadding desktop:px-desktopPadding ">
           <SectionHome></SectionHome>
